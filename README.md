@@ -93,7 +93,7 @@ Includes full 5-message protocol:
 ## 🏛️ Paxos (Conceptual Implementation)
 
 **Description:**  
-A simplified implementation of the Paxos consensus algorithm.  
+A simplified implementation of the Paxos consensus algorithm with simultaneous initiations of consensus by multiple nodes.  
 Demonstrates the roles of **proposers**, **acceptors**, and **learners**, and how consensus is safely reached even under failures.
 
 **File:** `paxos.cpp`
